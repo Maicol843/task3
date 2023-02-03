@@ -58,7 +58,7 @@ a:hover{
 
 article{
     position:relative;
-    top: -190px;
+    top: -350px;
     left:250px;
 }
 
@@ -91,6 +91,122 @@ pre{
        
 }
 
+.container3 h2, h4{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
 
+.container3 img{
+    height: 130px;
+    width: 120px;
+    position:relative;
+    top:-95px;
+    left: 1100px;
+    background-color: rgb(210, 211, 208);
+    border-radius: 30%;
+}
 
+.listas-descriptivas{
+    position: relative;
+    left:200px;
+    top: -350px;
+    margin-right: 250px;
+}
 
+.listas-ordenadas{
+    position: relative;
+    left:200px;
+    top: -330px;
+    margin-right: 250px;
+}
+
+.lista-desordenada{
+    position: relative;
+    left:200px;
+    top: -315px;
+    margin-right: 250px;
+}
+
+.lista1, .lista2, .lista3{
+    position: relative;
+    left: 20px;
+}
+
+.subtitulos{
+    color: rgb(157, 168, 5);
+    position: relative;
+    left: -10px;
+}
+
+.container4 img{
+    height: 130px;
+    width: 120px;
+    position:relative;
+    top:-70px;
+    left: 1000px;
+    background-color: rgb(210, 211, 208);
+    border-radius: 30%;
+}
+
+.subtitulo1{
+    position: relative;
+    top: -80px;
+    left: 170px;
+}
+
+.subtitulo2{
+    position: relative;
+    top: -350px;
+    left: 170px;
+}
+
+.tabla-juegos{
+    background-color: rgb(255, 251, 251);
+    width: 50vw;
+    height: 30vh;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    left:180px;
+    top: -320px;
+}
+
+th{
+    padding: 10px;
+    color:rgb(208, 223, 10);
+    border: rgb(157, 168, 5) 1px solid;
+    background-color: black;
+}
+
+td {
+    color: black;
+    padding: 10px;
+    border: rgb(157, 168, 5) 1px solid;
+}
+
+dl{
+    padding: 3%;
+}
+
+.fechas{
+    background-color: rgb(227, 252, 116);
+}
+
+.informacion-adicional{
+    position: relative;
+    top:-300px;
+    left: 125px;
+}
+
+.informacion-contacto{
+    position: relative;
+    top: -295px;
+    left: 125px;
+}
+
+.email{
+    position: relative;
+    top: -45px;
+    left: 445px;
+}
