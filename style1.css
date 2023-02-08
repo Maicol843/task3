@@ -39,6 +39,10 @@ h2{
     border-radius: 30%;
 }
 
+nav{
+    padding: 0.2%;
+}
+
 nav, section{
     background-color: rgb(220, 222, 223);
     padding-top:70px;
@@ -59,9 +63,21 @@ a:hover{
     color:rgb(157, 168, 5);
 }
 
-article{
+.articulo1{
     position:relative;
-    top: -600px;
+    top: -700px;
+    left:250px;
+}
+
+.articulo2{
+    position:relative;
+    top: -700px;
+    left:250px;
+}
+
+.articulo3{
+    position:relative;
+    top: -670px;
     left:250px;
 }
 
@@ -121,21 +137,21 @@ h2{
 .listas-descriptivas{
     position: relative;
     left:200px;
-    top: -600px;
+    top: -690px;
     margin-right: 250px;
 }
 
 .listas-ordenadas{
     position: relative;
     left:200px;
-    top: -590px;
+    top: -680px;
     margin-right: 250px;
 }
 
 .lista-desordenada{
     position: relative;
     left:200px;
-    top: -570px;
+    top: -670px;
     margin-right: 250px;
 }
 
@@ -152,7 +168,7 @@ h2{
 
 .subtitulo1{
     position: relative;
-    top: -150px;
+    top: -155px;
     left: 170px;
 }
 
@@ -210,4 +226,52 @@ dl{
     position: relative;
     top: -45px;
     left: 445px;
+}
+
+form{
+    border: 2px solid rgb(157, 168, 5);
+    border-radius: 1rem;
+    position: relative;
+    top: -670px;
+    left: 180px;
+    margin-right: 200px;
+}
+
+fieldset{
+    border: none;
+    margin:10px;
+    position: relative;
+    left: 20px;
+}
+
+
+h5, h6{
+    font-size: 1em;
+}
+
+h6{
+    position: relative;
+}
+.parrafo{
+    position: relative;
+    left: -10px;
+}
+
+.envio{
+    padding: 10px;
+    margin-top: 10px;
+    position:relative;
+    left:500px;
+}
+
+.mapa{
+    position: relative;
+    top:-600px;
+}
+
+iframe{
+    border-radius: 1rem;
+    position: relative;
+    top: -580px;
+    left: 370px;
 }

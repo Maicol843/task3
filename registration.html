@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style1.css">
+    <!--<link rel="stylesheet" href="style2.css">-->
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <img class="banner" src="./Assets/design1_image1.jpg">
+    </header>
+    <nav>
+        <h2>Registration Form</h2>
+        <img class="logo"src="./Assets/Logo.png">
+        <div class="caja"><a href="index.html"><b>Home</b></a></div>
+        <div class="caja"><a href="about.html"><b>About</b></a></div>
+        <div class="caja"><a href="contact.html"><b>Contact</b></a></div>
+        <div class="caja"><a href="rules.html"><b>Rules</b></a></div>
+        <div class="caja"><a href="game_info.html"><b>Game-Info</b></a></div>
+        <div class="caja"><a href="registration.html"><b>Registration</b></a></div>
+    </nav>
+    <section>
+        <form action="./show_data.html" method="get">
+            <fieldset>
+                <label for="nombre">Player's First Name:<span style="color:red">*</span></label>
+                <input required type="text" name="nombre" id="nombre" placeholder="name">
+                <label for="apellido">Last Name:<span style="color:red">*</span></label>
+                <input required type="text" name="apellido" id="apellido"  placeholder="last name">
+            </fieldset>
+            <fieldset>
+                <label required for="direccion">Street Address:<span style="color:red">*</span></label>
+                <input required type="text" name="direccion" id="direccion"  placeholder="address">
+            </fieldset>
+            <fieldset>
+                <label for="ciudad">City:<span style="color:red">*</span></label>
+                <input required type="text" name="ciudad" id="ciudad"    placeholder="city">
+                <label for="codigoPostal">Zip Code:<span style="color:red">*</span></label>
+                <input required type="numero" name="codigoPostal" id="codigoPostal"  placeholder="zip code">
+            </fieldset>
+            <fieldset>
+                <label for="fecha">Birth Date:<span style="color:red">*</span></label>
+                <input required type="date" name="fecha" id="fecha">
+                <label>
+                    Gender:<span style="color:red">*</span>
+                    Female:
+                    <input type="checkbox">
+                    Male:
+                    <input type="checkbox">
+                </label>
+            </fieldset>
+            <fieldset>
+                    Grade:<span style="color:red">*</span>
+                    Pre-school:
+                    <input type="checkbox">
+                    1st
+                    <input type="checkbox">
+                    2nd
+                    <input type="checkbox">
+                    3rd
+                    <input type="checkbox">
+                    4th
+                    <input type="checkbox">
+                    5th
+                    <input type="checkbox">
+            </fieldset>
+            <fieldset>
+                <h5><b>Which elementary school do you live near?</b><span style="color:red">*</h5>
+                <h6><b>Closest School:</b></h6>
+                <ol>
+                    AJ Katzenmaier
+                    <input type="checkbox">
+                    Marjone P Hart
+                    <input type="checkbox">
+                </ol>
+                <ol>
+                    Greenbay:
+                    <input type="checkbox">
+                    North Elementary
+                    <input type="checkbox">
+                </ol>
+                <ol>
+                    Howard A Yeager
+                    <input type="checkbox">
+                    South Elementary
+                    <input type="checkbox">
+                </ol>
+            </fieldset>
+           
+            <fieldset>
+                 <h5><b>Whath position(s) do you normally play? (check all that apply)<span style="color:red">*</b></h5>
+                 <ol>
+                    Forward
+                    <input type="checkbox">
+                    Midfield
+                    <input type="checkbox">
+                </ol>
+                 <ol>
+                    Defense
+                    <input type="checkbox">
+                    Goalkeeper
+                    <input type="checkbox">
+                </ol>
+            </fieldset>
+            <fieldset>
+                <h5><b>Uniform Size:<span style="color:red">*</b></h5>
+                <ol>
+                    Youth Smal
+                    <input type="checkbox">
+                    Medium
+                    <input type="checkbox">
+                </ol>
+                <ol>
+                    Youth Medium
+                    <input type="checkbox">
+                    Large
+                    <input type="checkbox">
+                </ol>
+                <ol>
+                    Youth Large
+                    <input type="checkbox">
+                    Extra-Large
+                    <input type="checkbox">
+                </ol>
+                <ol>
+                    Small
+                    <input type="checkbox">   
+                </ol>
+            </fieldset>
+            <fieldset>
+                <h5><b>Permission yo Play<span style="color:red">*</b></h5>
+                <p class="parrafo">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its 
+                hockey programs and activities, I hereby release, discharge, and/or otherwise indemnity MDHL,
+                their employees and associated personnel and volunters, including the facilities used for 
+                practices and games, against any claim by or on behaif of the registrant as a result of the
+                registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                activities, which transportation.
+                By signing below, I herebyagree anbdauthorizethe above, in addition, by signing below, lalso
+                acknoledge that I have read the cancellation policy and agree to its terms.</p>
+            </fieldset>
+            <fieldset>
+                <label for="firma">Parent/GuardianSignature:<span style="color:red">*</span></label>
+                <input required type="text" name="firma" id="nombre" placeholder="parent/guardiansignature">
+                <label for="fecha">Date:<span style="color:red">*</span></label>
+                <input required type="text" name="fecha" id="fecha"  placeholder="date">
+            </fieldset>
+            <fieldset>
+                <input class="envio" type="submit" value="Enviar datos">
+                <h3><span style="color:red">*</span> Estos campos son obligatorios</h3>
+            </fieldset>
+        </form>
+        <div>
+            <h2 class="mapa">Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.158798091046!2d-117.8793971847914!3d33.80821488067302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7758433275f%3A0xdaf9b994527b6082!2sAnaheim%20Ducks%20Hockey%20Club!5e0!3m2!1ses!2sar!4v1675871583676!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <p>Mighty Ducks Hockey League 2023 &reg;</p>
+    </footer>
+</body>
+</html>
+        
